@@ -1,0 +1,181 @@
+{
+ "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/login/index",//登录界面
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+	{
+	  "path": "pages/login/components/choose-mode",//登录选择
+	  "style": {
+	    "app-plus": {
+	      "titleNView": false
+	    }
+	  }
+	},
+    {
+      "path": "pages/index/index",//执法的首页
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/home/index",//我的
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/task/index",//
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+	
+    {
+      "path": "pages/evaluate/index",//执法的评估
+      "style": {
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/evaluate/components/Detail",
+      "style": {
+        "navigationBarTitleText": "评估"
+      }
+    },
+    {
+      "path": "pages/evaluate/components/Result",
+      "style": {
+        "app-plus": {
+            "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/index/components/HistoryManage",
+      "style": {
+        "navigationBarTitleText": "近期搜索记录"
+      }
+    },
+    {
+      "path": "pages/login/components/ForgetPsw",
+      "style": {
+        "navigationBarTitleText": "忘记密码"
+      }
+    },
+    {
+      "path": "pages/login/components/ResetPsw",
+      "style": {
+        "navigationBarTitleText": "重置密码"
+      }
+    },
+	{
+	  "path": "pages/sample/samplehome",//企业的首页
+	  "style": {
+	    "app-plus": {
+	      "titleNView": false
+	    }
+	  }
+	},
+	{
+	  "path": "pages/sample/index",//企业的采样
+	  "style": {
+	    "app-plus": {
+	      "titleNView": false,
+		  "enablePullDownRefresh": true,
+		  "onReachBottomDistance": 100,
+		  "backgroundTextStyle": "dark"
+	    }
+	  }
+	},
+	{
+	  "path": "pages/sample/detail",//企业的采样详情
+	  "style": {
+	    "navigationBarTitleText": "采样详情"
+	  }
+	},
+	{
+	  "path": "pages/well/add",
+	  "style": {
+	    "navigationBarTitleText": "新增监测井",
+	    "enablePullDownRefresh": false
+	  }
+	},
+	{
+	  "path": "pages/lab/check",
+	  "style": {
+	    "navigationBarTitleText": "选择地下水监测机构"
+	  }
+	},
+	{
+	  "path": "pages/lab/create",
+	  "style": {
+	    "navigationBarTitleText": "新增地下水监测机构"
+	  }
+	},
+	{
+	  "path": "pages/evaluate/law/sign",
+	  "style": {
+	    "navigationBarTitleText": "",
+	    "enablePullDownRefresh": false
+	  }
+	}
+
+
+
+  ],
+ "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  }
+  // "tabBar": {
+  //   "color": "#8a8a8a",
+  //   "selectedColor": "#007AFF",
+  //   "borderStyle": "black",
+  //   "backgroundColor": "#ffffff",
+  //   "list": [
+  //     {
+  //       "pagePath": "pages/index/index",
+  //       "text": "首页",
+  //       "iconPath": "static/sy.png",
+  //       "selectedIconPath": "static/sy2.png"
+  //     },
+  //     {
+  //       "pagePath": "pages/task/index",
+  //       "text": "评估",
+  //       "iconPath": "static/yy.png",
+  //       "selectedIconPath": "static/yy2.png"
+  //     },
+  //     {
+  //       "pagePath": "pages/home/index",
+  //       "text": "我的",
+  //       "iconPath": "static/wd.png",
+  //       "selectedIconPath": "static/wd2.png"
+  //     }
+  //   ]
+  // }
+
+}
