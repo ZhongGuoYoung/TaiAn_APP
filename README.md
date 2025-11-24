@@ -192,4 +192,4 @@ TaiAn_APP-main/
 │  ├─ static/                 # 静态资源（图标、背景图、区划 GeoJSON、泰安区县 JSON 等）
 │  ├─ uni.scss                # 全局样式、主题色等
 │  └─ env.d.ts / shims-uni.d.ts 等类型声明
-└─ unpackage/                 # HBuilderX / 打包产物（可忽略）
+└─ unpackage/                 # HBuilderX / 打包产物
