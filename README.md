@@ -193,3 +193,34 @@ TaiAn_APP-main/
 │  ├─ uni.scss                # 全局样式、主题色等
 │  └─ env.d.ts / shims-uni.d.ts 等类型声明
 └─ unpackage/                 # HBuilderX / 打包产物
+```
+
+---
+
+## 四、环境准备
+
+- **1.安装 `Node.js`（建议 `Node 18+`，以兼容 `Vite 5`）**
+- **2.安装 `pnpm` 或 `npm`：**
+- **3.推荐使用 `pnpm：npm install -g pnpm`**
+- **4.安装` HBuilderX`（可选，用于可视化打包 App）**
+
+---
+## 五、本地开发与构建
+
+- **1. 安装依赖**
+  ```text
+     npm install
+  ```
+- **2. App 端调试（需 HBuilderX 或对应运行环境）**
+  ```text
+     npm dev:app
+  ```
+- **3. 构建生产包**
+  ```text
+     # App 打包（需 HBuilderX 环境）
+     pnpm build:app-android
+     pnpm build:app-ios
+  ```
+
+
+
